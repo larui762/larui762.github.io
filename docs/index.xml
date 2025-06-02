@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on la_ruiのblog</title>
+    <link>https://localhost:1313/docs/</link>
+    <description>Recent content in Docs on la_ruiのblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2025 - 2025 larui All Rights Reserved.</copyright>
+    <lastBuildDate>Sun, 01 Jun 2025 12:39:53 +0800</lastBuildDate><atom:link href="https://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>使用hugo来搭建自己的博客</title>
+      <link>https://localhost:1313/docs/first/</link>
+      <pubDate>Sun, 01 Jun 2025 12:39:53 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/first/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;前言 
+    &lt;div id=&#34;前言&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e5%89%8d%e8%a8%80&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h1&gt;
+&lt;p&gt;由于琐事越来越多，经常记不住事，由此搭建博客。&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/first/featured.webp" />
+    </item>
+    
+  </channel>
+</rss>
