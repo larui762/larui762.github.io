@@ -96,7 +96,7 @@
     "name": "test",
     "headline": "test",
     
-    "abstract": "\u003cdiv\r\n  id=\u0022artplayer-1748870964631463400\u0022\r\n  style=\u0022width:100%; height:700px;object-fit: cover;\u0022\r\n\u003e\u003c\/div\u003e\r\n\r\n\u003cscript src=\u0022https:\/\/cdn.jsdelivr.net\/npm\/hls.js@latest\u0022\u003e\u003c\/script\u003e\r\n\u003cscript src=\u0022https:\/\/cdn.jsdelivr.net\/npm\/flv.js@latest\u0022\u003e\u003c\/script\u003e\r\n\u003cscript\u003e\r\n    function playM3u8(video, url, art) {\r\n      if (Hls.isSupported()) {\r\n          if (art.hls) art.hls.destroy();\r\n          const hls = new Hls();\r\n          hls.loadSource(url);\r\n          hls.attachMedia(video);\r\n          art.hls = hls;\r\n          art.on(\u0027destroy\u0027, () =\u003e hls.destroy());\r\n      } else if (video.canPlayType(\u0027application\/vnd.apple.mpegurl\u0027)) {\r\n          video.src = url;\r\n      } else {\r\n          art.notice.show = \u0027Unsupported playback format: m3u8\u0027;\r\n      }\r\n  }\r\n\r\n   function playFlv(video, url, art) {\r\n      if (flvjs.isSupported()) {\r\n          if (art.flv) art.flv.destroy();\r\n          const flv = flvjs.createPlayer({\r\n              type: \u0027flv\u0027,\r\n              url: url,\r\n          });\r\n          flv.attachMediaElement(video);\r\n          flv.load();\r\n          art.flv = flv;\r\n          art.on(\u0027destroy\u0027, () =\u003e flv.destroy());\r\n      } else {\r\n          art.notice.show = \u0027Unsupported playback format: flv\u0027;\r\n      }\r\n  }\r\n\r\n  var art = new Artplayer({\r\n    container: \u0027#artplayer-1748870964631463400\u0027,\r\n    url: \u0027https:\\\/\\\/cdn.plyr.io\\\/static\\\/demo\\\/View_From_A_Blue_Moon_Trailer-576p.mp4\u0027,\r\n    type: \u0027\u0027,\r\n    customType: {\r\n          m3u8: playM3u8,\r\n          flv: playFlv,\r\n      },\r\n    autoplay: false,\r\n    pip: true,\r\n    setting: true,\r\n    aspectRatio: true,\r\n    fullscreen: true,\r\n    fullscreenWeb: true,\r\n    subtitleOffset: true,\r\n  });\r\n\u003c\/script\u003e",
+    "abstract": "\u003cdiv\r\n  id=\u0022artplayer-1748953359382113600\u0022\r\n  style=\u0022width:100%; height:700px;object-fit: cover;\u0022\r\n\u003e\u003c\/div\u003e\r\n\r\n\u003cscript src=\u0022https:\/\/cdn.jsdelivr.net\/npm\/hls.js@latest\u0022\u003e\u003c\/script\u003e\r\n\u003cscript src=\u0022https:\/\/cdn.jsdelivr.net\/npm\/flv.js@latest\u0022\u003e\u003c\/script\u003e\r\n\u003cscript src=\u0022https:\/\/cdn.jsdelivr.net\/npm\/artplayer\/dist\/artplayer.js\u0022\u003e\u003c\/script\u003e\r\n\r\n\u003cscript\u003e\r\n    function playM3u8(video, url, art) {\r\n      if (Hls.isSupported()) {\r\n          if (art.hls) art.hls.destroy();\r\n          const hls = new Hls();\r\n          hls.loadSource(url);\r\n          hls.attachMedia(video);\r\n          art.hls = hls;\r\n          art.on(\u0027destroy\u0027, () =\u003e hls.destroy());\r\n      } else if (video.canPlayType(\u0027application\/vnd.apple.mpegurl\u0027)) {\r\n          video.src = url;\r\n      } else {\r\n          art.notice.show = \u0027Unsupported playback format: m3u8\u0027;\r\n      }\r\n  }\r\n\r\n   function playFlv(video, url, art) {\r\n      if (flvjs.isSupported()) {\r\n          if (art.flv) art.flv.destroy();\r\n          const flv = flvjs.createPlayer({\r\n              type: \u0027flv\u0027,\r\n              url: url,\r\n          });\r\n          flv.attachMediaElement(video);\r\n          flv.load();\r\n          art.flv = flv;\r\n          art.on(\u0027destroy\u0027, () =\u003e flv.destroy());\r\n      } else {\r\n          art.notice.show = \u0027Unsupported playback format: flv\u0027;\r\n      }\r\n  }\r\n\r\n  var art = new Artplayer({\r\n    container: \u0027#artplayer-1748953359382113600\u0027,\r\n    url: \u0027https:\\\/\\\/surrit.com\\\/a442b5d2-b653-4858-8fbf-bf1186d59b38\\\/720p\\\/video.m3u8\u0027,\r\n    type: \u0027\u0027,\r\n    customType: {\r\n          m3u8: playM3u8,\r\n          flv: playFlv,\r\n      },\r\n    autoplay: false,\r\n    pip: true,\r\n    setting: true,\r\n    aspectRatio: true,\r\n    fullscreen: true,\r\n    fullscreenWeb: true,\r\n    subtitleOffset: true,\r\n});\r\n\u003c\/script\u003e",
     "inLanguage": "zh-cn",
     "url" : "https:\/\/localhost:1313\/video\/one\/",
     "author" : {
@@ -153,16 +153,6 @@
 
 
 
-
-
-
-
-    
-    
-<script type="text/javascript"  src="/js/artplayer.min.2b232bd551dbc2de78d211ef583951eb49943f936b1a204112542b65b2376e69e0fd1477a627ec8b3a20579cc4e58d52a20234be05f8b8250cc260599fddf9fb.js" integrity="sha512-KyMr1VHbwt540hHvWDlR60mUP5NrGiBBElQrZbI3bmng/RR3pifsizogV5zE5Y1SogI0vgX4uCUMwmBZn935&#43;w=="></script>
-    
-    
-<script type="text/javascript"  src="/js/artplayer-plugin-danmuku.min.a9b1912b2565014b00b4546bf761257d8fd0268233753f9a16c3e25c790444506b558a5745c69bde723866219d4e64a9aed1dcd39ee8cc0a2985b8f3985d01b8.js" integrity="sha512-qbGRKyVlAUsAtFRr92ElfY/QJoIzdT&#43;aFsPiXHkERFBrVYpXRcab3nI4ZiGdTmSprtHc057ozAophbjzmF0BuA=="></script>
 
 
 
@@ -1045,14 +1035,15 @@
 
 
 
-
 <div
-  id="artplayer-1748870964631463400"
+  id="artplayer-1748953359382113600"
   style="width:100%; height:700px;object-fit: cover;"
 ></div>
 
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 <script src="https://cdn.jsdelivr.net/npm/flv.js@latest"></script>
+<script src="https://cdn.jsdelivr.net/npm/artplayer/dist/artplayer.js"></script>
+
 <script>
     function playM3u8(video, url, art) {
       if (Hls.isSupported()) {
@@ -1086,8 +1077,8 @@
   }
 
   var art = new Artplayer({
-    container: '#artplayer-1748870964631463400',
-    url: 'https:\/\/cdn.plyr.io\/static\/demo\/View_From_A_Blue_Moon_Trailer-576p.mp4',
+    container: '#artplayer-1748953359382113600',
+    url: 'https:\/\/surrit.com\/a442b5d2-b653-4858-8fbf-bf1186d59b38\/720p\/video.m3u8',
     type: '',
     customType: {
           m3u8: playM3u8,
@@ -1100,7 +1091,7 @@
     fullscreen: true,
     fullscreenWeb: true,
     subtitleOffset: true,
-  });
+});
 </script>
 
 
@@ -2345,9 +2336,5 @@
 
   </div>
 </body>
-
-<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
-  data-id="nunocoracao" data-description="Support me on Buy me a coffee!" data-message=""
-  data-color="#FFDD00" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
 
 </html>

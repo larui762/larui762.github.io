@@ -16,12 +16,14 @@
       
       <guid>https://localhost:1313/video/one/</guid>
       <description>&lt;div
-  id=&#34;artplayer-1748870964631463400&#34;
+  id=&#34;artplayer-1748953359382113600&#34;
   style=&#34;width:100%; height:700px;object-fit: cover;&#34;
 &gt;&lt;/div&gt;
 
 &lt;script src=&#34;https://cdn.jsdelivr.net/npm/hls.js@latest&#34;&gt;&lt;/script&gt;
 &lt;script src=&#34;https://cdn.jsdelivr.net/npm/flv.js@latest&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdn.jsdelivr.net/npm/artplayer/dist/artplayer.js&#34;&gt;&lt;/script&gt;
+
 &lt;script&gt;
     function playM3u8(video, url, art) {
       if (Hls.isSupported()) {
@@ -55,8 +57,8 @@
   }
 
   var art = new Artplayer({
-    container: &#39;#artplayer-1748870964631463400&#39;,
-    url: &#39;https:\/\/cdn.plyr.io\/static\/demo\/View_From_A_Blue_Moon_Trailer-576p.mp4&#39;,
+    container: &#39;#artplayer-1748953359382113600&#39;,
+    url: &#39;https:\/\/surrit.com\/a442b5d2-b653-4858-8fbf-bf1186d59b38\/720p\/video.m3u8&#39;,
     type: &#39;&#39;,
     customType: {
           m3u8: playM3u8,
@@ -69,7 +71,7 @@
     fullscreen: true,
     fullscreenWeb: true,
     subtitleOffset: true,
-  });
+});
 &lt;/script&gt;</description>
       
     </item>
