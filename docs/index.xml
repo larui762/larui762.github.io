@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on la_ruiのblog</title>
-    <link>https://localhost:1313/docs/</link>
+    <link>http://localhost:1313/docs/</link>
     <description>Recent content in Docs on la_ruiのblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 - 2025 larui All Rights Reserved.</copyright>
-    <lastBuildDate>Sun, 01 Jun 2025 12:39:53 +0800</lastBuildDate><atom:link href="https://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Jun 2025 12:39:53 +0800</lastBuildDate><atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>使用hugo来搭建自己的博客</title>
-      <link>https://localhost:1313/docs/first/</link>
+      <link>http://localhost:1313/docs/first/</link>
       <pubDate>Sun, 01 Jun 2025 12:39:53 +0800</pubDate>
       
-      <guid>https://localhost:1313/docs/first/</guid>
+      <guid>http://localhost:1313/docs/first/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;前言 
     &lt;div id=&#34;前言&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -26,7 +26,7 @@
     
 &lt;/h1&gt;
 &lt;p&gt;由于琐事越来越多，经常记不住事，由此搭建博客。&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/first/featured.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/first/featured.webp" />
     </item>
     
   </channel>
