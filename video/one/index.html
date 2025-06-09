@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
-  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  data-auto-appearance="true"><head>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="zh-cn" />
@@ -15,7 +15,7 @@
   
   
   
-  <link rel="canonical" href="http://localhost:1313/video/one/" />
+  <link rel="canonical" href="https://localhost:1313/video/one/" />
   
   
   
@@ -67,7 +67,7 @@
   
   
   
-  <meta property="og:url" content="http://localhost:1313/video/one/">
+  <meta property="og:url" content="https://localhost:1313/video/one/">
   <meta property="og:site_name" content="la_ruiのblog">
   <meta property="og:title" content="test">
   <meta property="og:description" content="">
@@ -83,8 +83,8 @@
   <meta name="twitter:description" content="">
 
     
-    <meta name="twitter:image" content="http://localhost:1313/img/blowfish.jpg" />
-    <meta property="og:image" content="http://localhost:1313/img/blowfish.jpg" />
+    <meta name="twitter:image" content="https://localhost:1313/img/blowfish.jpg" />
+    <meta property="og:image" content="https://localhost:1313/img/blowfish.jpg" />
     
   
   
@@ -96,9 +96,9 @@
     "name": "test",
     "headline": "test",
     
-    "abstract": "\u003cdiv\r\n  id=\u0022artplayer-1749457019955016700\u0022\r\n  style=\u0022width:100%; height:700px;object-fit: cover;\u0022\r\n\u003e\u003c\/div\u003e\r\n\r\n\u003cscript src=\u0022https:\/\/cdn.jsdelivr.net\/npm\/hls.js@latest\u0022\u003e\u003c\/script\u003e\r\n\u003cscript src=\u0022https:\/\/cdn.jsdelivr.net\/npm\/flv.js@latest\u0022\u003e\u003c\/script\u003e\r\n\u003cscript src=\u0022https:\/\/cdn.jsdelivr.net\/npm\/artplayer\/dist\/artplayer.js\u0022\u003e\u003c\/script\u003e\r\n\r\n\u003cscript\u003e\r\n    function playM3u8(video, url, art) {\r\n      if (Hls.isSupported()) {\r\n          if (art.hls) art.hls.destroy();\r\n          const hls = new Hls();\r\n          hls.loadSource(url);\r\n          hls.attachMedia(video);\r\n          art.hls = hls;\r\n          art.on(\u0027destroy\u0027, () =\u003e hls.destroy());\r\n      } else if (video.canPlayType(\u0027application\/vnd.apple.mpegurl\u0027)) {\r\n          video.src = url;\r\n      } else {\r\n          art.notice.show = \u0027Unsupported playback format: m3u8\u0027;\r\n      }\r\n  }\r\n\r\n   function playFlv(video, url, art) {\r\n      if (flvjs.isSupported()) {\r\n          if (art.flv) art.flv.destroy();\r\n          const flv = flvjs.createPlayer({\r\n              type: \u0027flv\u0027,\r\n              url: url,\r\n          });\r\n          flv.attachMediaElement(video);\r\n          flv.load();\r\n          art.flv = flv;\r\n          art.on(\u0027destroy\u0027, () =\u003e flv.destroy());\r\n      } else {\r\n          art.notice.show = \u0027Unsupported playback format: flv\u0027;\r\n      }\r\n  }\r\n\r\n  var art = new Artplayer({\r\n    container: \u0027#artplayer-1749457019955016700\u0027,\r\n    url: \u0027https:\\\/\\\/surrit.com\\\/a442b5d2-b653-4858-8fbf-bf1186d59b38\\\/720p\\\/video.m3u8\u0027,\r\n    type: \u0027\u0027,\r\n    customType: {\r\n          m3u8: playM3u8,\r\n          flv: playFlv,\r\n      },\r\n    autoplay: false,\r\n    pip: true,\r\n    setting: true,\r\n    aspectRatio: true,\r\n    fullscreen: true,\r\n    fullscreenWeb: true,\r\n    subtitleOffset: true,\r\n});\r\n\u003c\/script\u003e",
+    "abstract": "\u003cdiv\r\n  id=\u0022artplayer-1749457296078983500\u0022\r\n  style=\u0022width:100%; height:700px;object-fit: cover;\u0022\r\n\u003e\u003c\/div\u003e\r\n\r\n\u003cscript src=\u0022https:\/\/cdn.jsdelivr.net\/npm\/hls.js@latest\u0022\u003e\u003c\/script\u003e\r\n\u003cscript src=\u0022https:\/\/cdn.jsdelivr.net\/npm\/flv.js@latest\u0022\u003e\u003c\/script\u003e\r\n\u003cscript src=\u0022https:\/\/cdn.jsdelivr.net\/npm\/artplayer\/dist\/artplayer.js\u0022\u003e\u003c\/script\u003e\r\n\r\n\u003cscript\u003e\r\n    function playM3u8(video, url, art) {\r\n      if (Hls.isSupported()) {\r\n          if (art.hls) art.hls.destroy();\r\n          const hls = new Hls();\r\n          hls.loadSource(url);\r\n          hls.attachMedia(video);\r\n          art.hls = hls;\r\n          art.on(\u0027destroy\u0027, () =\u003e hls.destroy());\r\n      } else if (video.canPlayType(\u0027application\/vnd.apple.mpegurl\u0027)) {\r\n          video.src = url;\r\n      } else {\r\n          art.notice.show = \u0027Unsupported playback format: m3u8\u0027;\r\n      }\r\n  }\r\n\r\n   function playFlv(video, url, art) {\r\n      if (flvjs.isSupported()) {\r\n          if (art.flv) art.flv.destroy();\r\n          const flv = flvjs.createPlayer({\r\n              type: \u0027flv\u0027,\r\n              url: url,\r\n          });\r\n          flv.attachMediaElement(video);\r\n          flv.load();\r\n          art.flv = flv;\r\n          art.on(\u0027destroy\u0027, () =\u003e flv.destroy());\r\n      } else {\r\n          art.notice.show = \u0027Unsupported playback format: flv\u0027;\r\n      }\r\n  }\r\n\r\n  var art = new Artplayer({\r\n    container: \u0027#artplayer-1749457296078983500\u0027,\r\n    url: \u0027https:\\\/\\\/surrit.com\\\/a442b5d2-b653-4858-8fbf-bf1186d59b38\\\/720p\\\/video.m3u8\u0027,\r\n    type: \u0027\u0027,\r\n    customType: {\r\n          m3u8: playM3u8,\r\n          flv: playFlv,\r\n      },\r\n    autoplay: false,\r\n    pip: true,\r\n    setting: true,\r\n    aspectRatio: true,\r\n    fullscreen: true,\r\n    fullscreenWeb: true,\r\n    subtitleOffset: true,\r\n});\r\n\u003c\/script\u003e",
     "inLanguage": "zh-cn",
-    "url" : "http:\/\/localhost:1313\/video\/one\/",
+    "url" : "https:\/\/localhost:1313\/video\/one\/",
     "author" : {
       "@type": "Person",
       "name": "la_rui"
@@ -1036,7 +1036,7 @@
 
 
 <div
-  id="artplayer-1749457019955016700"
+  id="artplayer-1749457296078983500"
   style="width:100%; height:700px;object-fit: cover;"
 ></div>
 
@@ -1077,7 +1077,7 @@
   }
 
   var art = new Artplayer({
-    container: '#artplayer-1749457019955016700',
+    container: '#artplayer-1749457296078983500',
     url: 'https:\/\/surrit.com\/a442b5d2-b653-4858-8fbf-bf1186d59b38\/720p\/video.m3u8',
     type: '',
     customType: {
@@ -1111,7 +1111,7 @@
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/video/one/&amp;title=test"
+      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://localhost:1313/video/one/&amp;title=test"
       title="分享到 LinkedIn"
       aria-label="分享到 LinkedIn"
       >
@@ -1130,7 +1130,7 @@
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://twitter.com/intent/tweet/?url=http://localhost:1313/video/one/&amp;text=test"
+      href="https://twitter.com/intent/tweet/?url=https://localhost:1313/video/one/&amp;text=test"
       title="分享到 Twitter"
       aria-label="分享到 Twitter"
       >
@@ -1148,7 +1148,7 @@
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://bsky.app/intent/compose?text=test&#43;http://localhost:1313/video/one/"
+      href="https://bsky.app/intent/compose?text=test&#43;https://localhost:1313/video/one/"
       title=""
       aria-label=""
       >
@@ -1166,7 +1166,7 @@
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://reddit.com/submit/?url=http://localhost:1313/video/one/&amp;resubmit=true&amp;title=test"
+      href="https://reddit.com/submit/?url=https://localhost:1313/video/one/&amp;resubmit=true&amp;title=test"
       title="提交到 Reddit"
       aria-label="提交到 Reddit"
       >
@@ -1185,7 +1185,7 @@
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://api.whatsapp.com/send?text=http://localhost:1313/video/one/&amp;resubmit=true&amp;title=test"
+      href="https://api.whatsapp.com/send?text=https://localhost:1313/video/one/&amp;resubmit=true&amp;title=test"
       title=""
       aria-label=""
       >
@@ -1204,7 +1204,7 @@
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://t.me/share/url?url=http://localhost:1313/video/one/&amp;resubmit=true&amp;title=test"
+      href="https://t.me/share/url?url=https://localhost:1313/video/one/&amp;resubmit=true&amp;title=test"
       title=""
       aria-label=""
       >
@@ -1223,7 +1223,7 @@
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://pinterest.com/pin/create/bookmarklet/?url=http://localhost:1313/video/one/&amp;description=test"
+      href="https://pinterest.com/pin/create/bookmarklet/?url=https://localhost:1313/video/one/&amp;description=test"
       title="钉到 Pinterest"
       aria-label="钉到 Pinterest"
       >
@@ -1242,7 +1242,7 @@
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:1313/video/one/&amp;quote=test"
+      href="https://www.facebook.com/sharer/sharer.php?u=https://localhost:1313/video/one/&amp;quote=test"
       title="分享到 Facebook"
       aria-label="分享到 Facebook"
       >
@@ -1261,7 +1261,7 @@
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="mailto:?body=http://localhost:1313/video/one/&amp;subject=test"
+      href="mailto:?body=https://localhost:1313/video/one/&amp;subject=test"
       title="通过电子邮件发送"
       aria-label="通过电子邮件发送"
       >
@@ -2284,7 +2284,7 @@
 <div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
-  data-url="http://localhost:1313/"
+  data-url="https://localhost:1313/"
   style="z-index:500"
 >
   <div
