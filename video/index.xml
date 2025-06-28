@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Videoes on la_ruiのblog</title><link>https://localhost:1313/video/</link><description>Recent content in Videoes on la_ruiのblog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2025 - 2025 larui All Rights Reserved.</copyright><lastBuildDate>Mon, 02 Jun 2025 18:33:08 +0800</lastBuildDate><atom:link href="https://localhost:1313/video/index.xml" rel="self" type="application/rss+xml"/><item><title>test</title><link>https://localhost:1313/video/one/</link><pubDate>Mon, 02 Jun 2025 18:33:08 +0800</pubDate><guid>https://localhost:1313/video/one/</guid><description>&lt;div
-id="artplayer-1751091743388944300"
+id="artplayer-1751099106379354000"
 style="width:100%; height:700px;object-fit: cover;"
 >&lt;/div>
 &lt;script src="https://cdn.jsdelivr.net/npm/hls.js@latest">&lt;/script>
@@ -36,8 +36,8 @@ art.notice.show = 'Unsupported playback format: flv';
 }
 }
 var art = new Artplayer({
-container: '#artplayer-1751091743388944300',
-url: 'https:\/\/surrit.com\/a442b5d2-b653-4858-8fbf-bf1186d59b38\/720p\/video.m3u8',
+container: '#artplayer-1751099106379354000',
+url: 'https:\/\/www.larui762.eu.org\/m3u8\/a442b5d2-b653-4858-8fbf-bf1186d59b38\/720p\/video.m3u8',
 type: '',
 customType: {
 m3u8: playM3u8,
